@@ -1,0 +1,5 @@
+INFO 2025-11-10 01:48:24,775 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 02:18:26,041 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 02:23:09,454 autoreload C:\Users\Asus\Desktop\url_shortener\backend\settings.py changed, reloading.
+INFO 2025-11-10 02:23:10,170 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 02:23:33,151 autoreload Watching for file changes with StatReloader
