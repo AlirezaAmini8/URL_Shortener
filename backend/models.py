@@ -23,13 +23,9 @@ class URL(models.Model):
     )
 
     class Meta:
+        app_label = 'backend'
         db_table = 'urls'
-        indexes = [
-            models.Index(fields=['short_code']),
-            models.Index(fields=['url_hash']),
-            models.Index(fields=['created_at']),
-        ]
-        ordering = ['-created_at']
+        managed = True
 
     def save(self, *args, **kwargs):
         if not self.url_hash:

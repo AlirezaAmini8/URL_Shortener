@@ -5,8 +5,6 @@ import hashlib
 
 class ShortCodeGenerator:
     CHARSET = string.ascii_letters + string.digits
-    CHARSET = CHARSET.replace('0', '').replace('O', '').replace('l', '').replace('I', '')
-
     @staticmethod
     def base62_encode(num):
         if num == 0:
